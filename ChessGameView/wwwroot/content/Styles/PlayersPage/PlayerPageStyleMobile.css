@@ -1,0 +1,38 @@
+
+body {
+    font-family: Arial;
+    margin: 0;
+
+}
+
+
+.header {
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 20px;
+    padding: 25px 10px;
+    
+}
+
+.content {
+    padding:20px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    height: auto;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-color: rgb(230, 230, 230);
+    border-radius: 30px;
+  }
+#link{
+    color: #000a08;
+    text-decoration: none;
+}
+img{
+    border-radius: 50px;
+    margin-top: 3%;
+}

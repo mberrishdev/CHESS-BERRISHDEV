@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../Content/Styles/GamePage/GamePagePcStyle.css">
+    <link rel="Shortcut Icon" href="https://w7.pngwing.com/pngs/434/570/png-transparent-chess-pawn-computer-icons-queen-icon-chess-king-hand-silhouette.png" type="image/x-icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Free Game</title>
+</head>
+
+<body>
+
+
+    <!-- <h1>00:00</h1> -->
+    <div>
+        <div id="image1"><img id="img1"src="../content/Images/Profile.jpg"></div>
+        <h3 id="player1"></h3>
+        <h2 id="player1time">0 : 0</h2>
+    </div>
+
+
+    <div id ="player2div">
+        <div id="image2"><img id="img2"src="../content/Images/Profile.jpg"></div>        
+        <h3 id="player2"></h3>
+        <h2 id="player2time">0 : 0</h2>
+    </div>
+
+    <div class="div">
+        <table class="table" id="table"> </table>
+    </div>
+
+    <button id="endGame" onclick="endGame()">Giving up.</button>
+    <!-- <button onclick="draw()">Draw.</button> -->
+
+
+
+
+    <script src="../Content/Scripts/Constants.js"></script>
+    <script src="../Content/Scripts/GamePage/ModelForGamePage.js"></script>
+    <script src="../Content/Scripts/GamePage/ControllerForGamePage.js"></script>
+    <script src="../Content/Scripts/GamePage/ViewPcForGamePage.js"></script>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="Shortcut Icon" href="https://w7.pngwing.com/pngs/434/570/png-transparent-chess-pawn-computer-icons-queen-icon-chess-king-hand-silhouette.png" type="image/x-icon" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../content/Styles/GameManagerPage/GameManagerStyle.css">
+</head>
+
+<body>
+
+
+<div class="MainDiv">
+    <div class="CreateGame">
+        <h1>Create Game</h1>
+        <input list="colors" type="text" placeholder="Choos Color" id="choosColor" value="">
+        <button type="button" onclick="CreateGame()">Enter</button>
+    </div>
+
+    <div class="MyGame" id="MyGame" >
+        <h1>My Game</h1>
+    </div>
+
+    <div class="Currentgames" id="Currentgames">
+        <h1>Current games</h1>
+    </div>
+
+    <div class="JoinGame" id="JoinGame">
+        <h1>Join Game</h1>
+    </div>
+
+</div>
+
+    <datalist id="colors">
+        <option value="White"></option>
+        <option value="Black"></option>
+    </datalist>
+    
+    <script src="../Content/Scripts/Constants.js"></script>
+    <script src="../content/Scripts/GameManagerPage/CreateGamePage.js"></script>
+</body>
+
+</html>

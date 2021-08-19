@@ -1,0 +1,45 @@
+body {
+    background-color: #1abc9c;   
+}
+.CreateGame{
+    position:absolute;
+    text-align: center;
+    left:18%;
+    width: 250px;
+    top:10%;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+}
+.Currentgames{
+    position:absolute;
+    text-align: center;
+    width: 250px;
+    /* height: 100%; */
+    left:18%;
+    top:40%;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+}
+.JoinGame{
+    width: 250px;
+    /* height: 250px; */
+    text-align: center;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    position:absolute;
+    left:18%;
+    top:75%;
+
+}
+.MyGame{
+    width: 250px;
+    /* height: 250px; */
+    text-align: center;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+    position:absolute;
+    left:18%;
+    top:25%;
+
+}
+.MainDiv{
+    height: 100%;
+    width: 250px;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+}
